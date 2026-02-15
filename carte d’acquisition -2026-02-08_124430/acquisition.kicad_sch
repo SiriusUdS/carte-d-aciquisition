@@ -5660,181 +5660,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Regulator_Linear:MIC5365-3.3YD5"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -7.62 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "MIC5365-3.3YD5"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC5365-6-High-Performance-Single-150mA-LDO-DS20006605A.pdf"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "150mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, TSOT-23-5"
-				(at 0 13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Micrel LDO voltage regulator"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TSOT?23*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MIC5365-3.3YD5_0_1"
-				(rectangle
-					(start -7.62 -5.08)
-					(end 7.62 5.08)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MIC5365-3.3YD5_1_1"
-				(pin power_in line
-					(at -10.16 2.54 0)
-					(length 2.54)
-					(name "VIN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -2.54 0)
-					(length 2.54)
-					(name "EN"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 7.62 -2.54 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:CK_KMS2xxG"
 			(pin_names
 				(offset 1.016)
@@ -6361,6 +6186,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3VA"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3VA"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3VA_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3VA_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers
@@ -6586,16 +6536,6 @@
 		)
 		(uuid "36ad9052-9033-40f8-a6b3-45d40fde2802")
 	)
-	(text "Buck pour 3V3D"
-		(exclude_from_sim no)
-		(at 390.652 67.818 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "edf97263-9f29-4d4c-b0fa-21e7813bcb39")
-	)
 	(text "Découplage"
 		(exclude_from_sim no)
 		(at 293.116 29.718 0)
@@ -6606,16 +6546,6 @@
 			(justify left)
 		)
 		(uuid "f3c4d0eb-43be-441f-b048-f06f836cae51")
-	)
-	(text "LDO"
-		(exclude_from_sim no)
-		(at 355.854 64.008 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "fa6a1e7b-4a44-4a1d-b404-fb2fa45090b0")
 	)
 	(junction
 		(at 337.82 41.91)
@@ -8685,16 +8615,6 @@
 	)
 	(wire
 		(pts
-			(xy 365.76 73.66) (xy 374.65 73.66)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b15a248b-5e28-4450-8de0-bd5ebd540589")
-	)
-	(wire
-		(pts
 			(xy 331.47 134.62) (xy 328.93 134.62)
 		)
 		(stroke
@@ -9425,7 +9345,7 @@
 	)
 	(wire
 		(pts
-			(xy 383.54 116.84) (xy 383.54 121.92)
+			(xy 383.54 114.3) (xy 383.54 121.92)
 		)
 		(stroke
 			(width 0)
@@ -9462,16 +9382,6 @@
 			(type default)
 		)
 		(uuid "eda002d2-9f02-4348-870b-7b57eba4fe31")
-	)
-	(wire
-		(pts
-			(xy 389.89 77.47) (xy 405.13 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ee0a3270-1de0-4944-b0ae-ff690c744302")
 	)
 	(wire
 		(pts
@@ -9843,16 +9753,6 @@
 		)
 		(uuid "345ce512-4405-4651-b10a-1f1856182d59")
 	)
-	(label "3V3A"
-		(at 374.65 73.66 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3a183f83-45f2-45b6-a002-6852445c16eb")
-	)
 	(label "+IN4"
 		(at 321.31 144.78 0)
 		(effects
@@ -9872,16 +9772,6 @@
 			(justify left bottom)
 		)
 		(uuid "440fdb5d-c649-47f8-b514-d8f3375b6b99")
-	)
-	(label "3V3A"
-		(at 383.54 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "48f2ad04-a481-447c-a6d2-6b39d65c7e32")
 	)
 	(label "+IN5"
 		(at 321.31 167.64 0)
@@ -9932,16 +9822,6 @@
 			(justify left bottom)
 		)
 		(uuid "58dd3a79-ca5b-4976-bb82-5f909ebfb7b7")
-	)
-	(label "3V3D"
-		(at 388.62 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5cb47236-78c6-4bb6-8f0e-18648c871497")
 	)
 	(label "VDD33_USB"
 		(at 229.87 24.13 0)
@@ -10162,16 +10042,6 @@
 			(justify left bottom)
 		)
 		(uuid "ea205732-2bd4-461a-83a7-db0f3f58d341")
-	)
-	(label "3V3D"
-		(at 405.13 77.47 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f6589443-0303-413f-ba6a-f8094f405691")
 	)
 	(label "SD.CMD"
 		(at 269.24 187.96 0)
@@ -10859,83 +10729,6 @@
 			(project "acquisition"
 				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc"
 					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Regulator_Linear:MIC5365-3.3YD5")
-		(at 355.6 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1ee474d9-530d-48f2-b1ea-fcf2555cfc0a")
-		(property "Reference" "U4"
-			(at 355.6 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MIC5365-3.3YD5"
-			(at 355.6 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23-5"
-			(at 355.6 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC5365-6-High-Performance-Single-150mA-LDO-DS20006605A.pdf"
-			(at 355.6 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "150mA Low-dropout Voltage Regulator, Vout 3.3V, Vin up to 5.5V, TSOT-23-5"
-			(at 355.6 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "883a4124-4501-4210-803a-53e84386505d")
-		)
-		(pin "5"
-			(uuid "c1b75838-4a0f-4980-b135-937b42507a65")
-		)
-		(pin "2"
-			(uuid "20d08773-752a-4d87-a3de-3173747f20c6")
-		)
-		(pin "4"
-			(uuid "464335bb-be03-4ca0-a508-e14d70d295bd")
-		)
-		(pin "3"
-			(uuid "54d48556-1fb2-4cee-ab87-011e155fc494")
-		)
-		(instances
-			(project ""
-				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc"
-					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -12035,72 +11828,6 @@
 			(project ""
 				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc"
 					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 355.6 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4caa9744-cf62-4964-a62c-33b08368a774")
-		(property "Reference" "#PWR08"
-			(at 355.6 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 355.6 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 355.6 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 355.6 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 355.6 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c4f1ddaa-567b-4ab1-a434-e118400cd240")
-		)
-		(instances
-			(project "acquisition"
-				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc"
-					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -14044,6 +13771,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3VA")
+		(at 383.54 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "986d8bcb-35de-4afa-a31b-89b361e203d4")
+		(property "Reference" "#PWR023"
+			(at 383.54 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3A"
+			(at 383.54 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 383.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 383.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 383.54 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c17317da-0d44-42b6-9cca-3bf44c8aac80")
+		)
+		(instances
+			(project ""
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "0CSL_D1_V1:Battery_Holder_1025")
 		(at 171.45 25.4 270)
 		(unit 1)
@@ -14514,6 +14306,72 @@
 			(project "acquisition"
 				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3VA")
+		(at 388.62 116.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5a92a0f-a510-43d0-8278-c48874bdabd2")
+		(property "Reference" "#PWR032"
+			(at 388.62 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "3V3D"
+			(at 388.62 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 388.62 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 388.62 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3VA\""
+			(at 388.62 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8f493b35-4c39-4f8b-95dc-76c2af120c4d")
+		)
+		(instances
+			(project ""
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc"
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -15917,6 +15775,48 @@
 			(project "acquisition"
 				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 66.04)
+		(size 46.99 19.05)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3917a9e9-47ba-43bf-aefd-5d3a66573ef7")
+		(property "Sheetname" "Power"
+			(at 24.13 65.3284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 24.13 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "acquisition"
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc"
+					(page "5")
 				)
 			)
 		)
