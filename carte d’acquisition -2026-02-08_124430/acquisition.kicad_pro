@@ -451,7 +451,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "carte d’acquisition .kicad_pro",
+    "filename": "acquisition.kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -613,6 +613,18 @@
     [
       "eaacffe0-ee57-428e-a37e-5655e0922ccc",
       "Root"
+    ],
+    [
+      "08c8ede8-1095-4e69-9f52-7f615080da19",
+      "Communication"
+    ],
+    [
+      "86dfffbf-ac08-41cb-ab8f-382cca5b005c",
+      "Storage"
+    ],
+    [
+      "78570940-d31b-4107-96ab-416087deab86",
+      "Connecteur"
     ]
   ],
   "text_variables": {}
