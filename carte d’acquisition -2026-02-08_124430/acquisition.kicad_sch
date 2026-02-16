@@ -15822,6 +15822,48 @@
 		)
 	)
 	(sheet
+		(at 24.13 30.48)
+		(size 48.26 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4a2889f9-cbe2-4e8a-8334-287f8d92a54d")
+		(property "Sheetname" "thermocouple"
+			(at 24.13 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "thermocouple.kicad_sch"
+			(at 24.13 56.4646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "acquisition"
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 24.13 96.52)
 		(size 48.26 29.21)
 		(exclude_from_sim no)
