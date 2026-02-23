@@ -633,6 +633,14 @@
     [
       "78570940-d31b-4107-96ab-416087deab86",
       "Connecteur"
+    ],
+    [
+      "9d93460e-0389-4a8f-a05c-302327761378",
+      "ADS131"
+    ],
+    [
+      "65a5cc7d-a434-4ef1-82f9-fc5a6ac489ff",
+      "Microcontrolleur"
     ]
   ],
   "text_variables": {}
