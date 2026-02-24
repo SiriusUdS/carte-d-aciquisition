@@ -3860,7 +3860,7 @@
 		)
 		(uuid "ce1a965b-78c2-4884-9749-50b763b60381")
 	)
-	(text "12.8V -> 5VA"
+	(text "12.8V -> 3.3VA"
 		(exclude_from_sim no)
 		(at 306.832 69.85 0)
 		(effects
@@ -4535,7 +4535,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 92.71) (xy 341.63 92.71)
+			(xy 334.01 92.71) (xy 340.36 92.71)
 		)
 		(stroke
 			(width 0)
@@ -11744,16 +11744,15 @@
 	)
 	(symbol
 		(lib_id "power:+5VA")
-		(at 341.63 92.71 0)
+		(at 340.36 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cce79490-450d-4370-bab4-e0149f8c028b")
 		(property "Reference" "#PWR039"
-			(at 341.63 96.52 0)
+			(at 340.36 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11761,16 +11760,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5VA"
-			(at 341.63 87.63 0)
+		(property "Value" "3V3A"
+			(at 338.328 88.138 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 341.63 92.71 0)
+			(at 340.36 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11779,7 +11779,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 341.63 92.71 0)
+			(at 340.36 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11788,7 +11788,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5VA\""
-			(at 341.63 92.71 0)
+			(at 340.36 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)

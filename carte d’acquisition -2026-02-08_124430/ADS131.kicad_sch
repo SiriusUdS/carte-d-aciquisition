@@ -2989,12 +2989,13 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "3V3D"
-			(at 115.57 52.07 0)
+		(property "Value" "3V3"
+			(at 118.11 55.8799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
