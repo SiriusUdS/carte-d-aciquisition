@@ -3827,6 +3827,16 @@
 		)
 		(uuid "54b6cd9c-cd5d-4dab-bd3b-ee4c58d395c1")
 	)
+	(text "je mais sa ou\n\narthur"
+		(exclude_from_sim no)
+		(at 225.044 131.318 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "79a9e2ee-48d9-4d06-8f13-41f4112e236a")
+	)
 	(text "MONITOR"
 		(exclude_from_sim no)
 		(at 120.904 188.976 0)

@@ -1285,6 +1285,16 @@
 		)
 		(uuid 73dc05a9-dce4-453d-a5d2-31b6945f9e32)
 	)
+	(text "on fait quoi avec ?"
+		(exclude_from_sim no)
+		(at 236.474 33.528 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "776ee09f-32b3-400a-9522-5b62cb3f4d6e")
+	)
 	(text "CLOCK"
 		(exclude_from_sim no)
 		(at 201.676 26.67 0)
@@ -1440,6 +1450,16 @@
 			(type default)
 		)
 		(uuid "1c78d681-da1d-414d-8ab6-8c179e9e27c1")
+	)
+	(wire
+		(pts
+			(xy 223.52 49.53) (xy 218.44 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2103ef7b-0dec-45ad-9fb3-bb9d2893f48f")
 	)
 	(wire
 		(pts
@@ -1723,6 +1743,16 @@
 	)
 	(wire
 		(pts
+			(xy 218.44 38.1) (xy 233.68 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a70b364-e9a1-4122-990b-a04467e1593d")
+	)
+	(wire
+		(pts
 			(xy 48.26 52.07) (xy 55.88 52.07)
 		)
 		(stroke
@@ -1760,6 +1790,16 @@
 			(type default)
 		)
 		(uuid "9a7a92bc-4fcd-4156-bd0c-b9936eb313f6")
+	)
+	(wire
+		(pts
+			(xy 233.68 38.1) (xy 233.68 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d482b19-cbb8-4876-87e2-e427347227be")
 	)
 	(wire
 		(pts
@@ -1890,6 +1930,16 @@
 			(type default)
 		)
 		(uuid "cd1ca1d7-98c2-4791-a232-fc5f6590e294")
+	)
+	(wire
+		(pts
+			(xy 218.44 49.53) (xy 218.44 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd6acde8-f434-44f8-94ee-f5f0b1cb5fc0")
 	)
 	(wire
 		(pts
