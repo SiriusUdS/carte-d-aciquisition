@@ -6509,6 +6509,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 134.62) (xy 121.92 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a492803-3eb4-494a-9c19-2c4f6c347102")
+	)
+	(wire
+		(pts
 			(xy 218.44 96.52) (xy 232.41 96.52)
 		)
 		(stroke
@@ -6729,6 +6739,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 111.76) (xy 121.92 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "538b8590-378a-4845-bd28-87339c47f373")
+	)
+	(wire
+		(pts
 			(xy 115.57 172.72) (xy 121.92 172.72)
 		)
 		(stroke
@@ -6806,6 +6826,16 @@
 			(type default)
 		)
 		(uuid "5a0c1ee2-8797-4f5e-85de-9fe767cd3a95")
+	)
+	(wire
+		(pts
+			(xy 116.84 114.3) (xy 121.92 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a89732d-8ef9-4abc-9982-88ee23f22457")
 	)
 	(wire
 		(pts
@@ -7519,6 +7549,16 @@
 	)
 	(wire
 		(pts
+			(xy 116.84 132.08) (xy 121.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bd50a512-64ca-4031-b110-1d1094f071cc")
+	)
+	(wire
+		(pts
 			(xy 160.02 44.45) (xy 160.02 50.8)
 		)
 		(stroke
@@ -7816,6 +7856,16 @@
 			(type default)
 		)
 		(uuid "e34f58ca-086c-4e85-8220-51a09d64b0cf")
+	)
+	(wire
+		(pts
+			(xy 116.84 109.22) (xy 121.92 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8dcc8af-fae1-4cc2-bd49-ad581683914b")
 	)
 	(wire
 		(pts
@@ -8300,6 +8350,28 @@
 		)
 		(uuid "2fcbc265-b996-4938-8d25-cdaca4d98047")
 	)
+	(hierarchical_label "ADC_4theromocouple"
+		(shape output)
+		(at 116.84 134.62 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a00d50c-f733-429b-a40e-531e9152cd25")
+	)
+	(hierarchical_label "led2"
+		(shape output)
+		(at 116.84 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3a9e3d66-40a4-4da6-9496-fb20b8399fe2")
+	)
 	(hierarchical_label "JTCK"
 		(shape input)
 		(at 232.41 96.52 0)
@@ -8531,6 +8603,17 @@
 		)
 		(uuid "d0405efd-89cf-4e2b-93fb-26a78429974a")
 	)
+	(hierarchical_label "led0"
+		(shape output)
+		(at 116.84 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d3663511-c0ab-4a1d-ac39-082768457217")
+	)
 	(hierarchical_label "SD.CLK"
 		(shape input)
 		(at 228.6 180.34 0)
@@ -8552,6 +8635,17 @@
 			(justify right)
 		)
 		(uuid "debbdd49-ed46-43d7-9f56-0504359e0a8d")
+	)
+	(hierarchical_label "ADS_loadcell"
+		(shape output)
+		(at 116.84 132.08 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3b0acad-be5c-4a62-96af-e3db2d255126")
 	)
 	(hierarchical_label "SPI1_NSS"
 		(shape input)
@@ -8585,6 +8679,17 @@
 			(justify left)
 		)
 		(uuid "f165227a-f884-4a3e-85a2-90790004003b")
+	)
+	(hierarchical_label "led1"
+		(shape output)
+		(at 116.84 111.76 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f1d06458-bc1a-4040-b9d7-7cfab6bebe35")
 	)
 	(hierarchical_label "I2C1_SDA"
 		(shape bidirectional)
