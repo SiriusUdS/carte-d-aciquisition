@@ -5171,7 +5171,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 299.466 68.834 90)
 			(effects
 				(font
@@ -5241,7 +5241,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 345.1352 63.5 0)
 			(effects
 				(font
@@ -5309,7 +5309,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Fuse:Fuse_0603_1608Metric"
 			(at 306.07 53.34 0)
 			(effects
 				(font
@@ -5783,7 +5783,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0603_1608Metric"
 			(at 314.96 62.23 0)
 			(effects
 				(font
@@ -6136,7 +6136,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 333.7052 63.5 0)
 			(effects
 				(font
@@ -6775,7 +6775,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 307.086 68.834 90)
 			(effects
 				(font
@@ -7416,7 +7416,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESDCAN:SOT323-3L_STM"
 			(at 125.73 175.26 0)
 			(effects
 				(font
@@ -7758,7 +7758,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 262.5852 100.33 0)
 			(effects
 				(font
@@ -7892,7 +7892,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 273.05 69.85 0)
 			(effects
 				(font
@@ -8205,7 +8205,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ESDCAN:SOT323-3L_STM"
 			(at 125.73 73.66 0)
 			(effects
 				(font

@@ -618,7 +618,7 @@
 		)
 		(uuid 3662dd2b-2f4e-47e1-8308-ec5b4ffc7a00)
 	)
-	(text "JTAG\n"
+	(text "SWD"
 		(exclude_from_sim no)
 		(at 74.93 50.546 0)
 		(effects
@@ -644,6 +644,10 @@
 	(no_connect
 		(at 143.51 97.79)
 		(uuid "1ba4b623-3503-4a18-b3ad-c98b3b965f41")
+	)
+	(no_connect
+		(at 156.21 97.79)
+		(uuid "a52ef7d1-091a-4a1b-8b60-8a0853901892")
 	)
 	(wire
 		(pts
@@ -757,16 +761,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 97.79) (xy 161.29 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f221abad-411a-46da-bffa-f1f0408d3977")
-	)
-	(wire
-		(pts
 			(xy 140.97 95.25) (xy 140.97 100.33)
 		)
 		(stroke
@@ -775,7 +769,7 @@
 		)
 		(uuid "f44769cf-d342-4585-b13b-1ceb49bedcd0")
 	)
-	(hierarchical_label "JTDO"
+	(hierarchical_label "SWO"
 		(shape input)
 		(at 161.29 95.25 0)
 		(effects
@@ -786,7 +780,7 @@
 		)
 		(uuid "1b940f0c-d58d-40b5-827d-03da27ba244d")
 	)
-	(hierarchical_label "JTCK"
+	(hierarchical_label "SWCLK"
 		(shape input)
 		(at 161.29 92.71 0)
 		(effects
@@ -797,7 +791,7 @@
 		)
 		(uuid "672e7823-0075-40bf-b873-6b850e000de5")
 	)
-	(hierarchical_label "NJRST"
+	(hierarchical_label "NRST"
 		(shape input)
 		(at 161.29 100.33 0)
 		(effects
@@ -808,18 +802,7 @@
 		)
 		(uuid "9ff3e896-085a-4d10-a817-eb30f27682a3")
 	)
-	(hierarchical_label "JTDI"
-		(shape input)
-		(at 161.29 97.79 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "c8e6a39e-9ae2-439f-bd61-84c8b1e73edc")
-	)
-	(hierarchical_label "JTMS"
+	(hierarchical_label "SWDIO"
 		(shape input)
 		(at 161.29 90.17 0)
 		(effects
@@ -856,7 +839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_2.00mm:PinSocket_2x05_P2.00mm_Vertical"
 			(at 148.59 95.25 0)
 			(effects
 				(font
