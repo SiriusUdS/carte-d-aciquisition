@@ -3710,6 +3710,18 @@
 		(uuid 6102b1b2-0180-4d8d-9c2c-820be57b6603)
 	)
 	(rectangle
+		(start 276.86 128.27)
+		(end 355.6 184.15)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 77291d49-5649-47e1-8679-d41bef4d6809)
+	)
+	(rectangle
 		(start 275.59 63.5)
 		(end 354.33 119.38)
 		(stroke
@@ -3815,6 +3827,16 @@
 		)
 		(uuid "1cacdc7e-896c-4c5c-87f5-cad932b26145")
 	)
+	(text "Version 3.3V du MCP1799"
+		(exclude_from_sim no)
+		(at 304.292 80.518 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2f902cb7-6e44-410c-9f99-426bb2c82493")
+	)
 	(text "Calcul des compos"
 		(exclude_from_sim no)
 		(at 151.13 30.48 0)
@@ -3836,6 +3858,16 @@
 			)
 		)
 		(uuid "79a9e2ee-48d9-4d06-8f13-41f4112e236a")
+	)
+	(text "Version 5V du MCP1799"
+		(exclude_from_sim no)
+		(at 307.594 144.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8428764e-c153-4fb3-b3c4-f6e0356cd592")
 	)
 	(text "Selon Datasheet TC output high = 26V Max??? \nfaire certain que c'est correct\n"
 		(exclude_from_sim no)
@@ -3890,6 +3922,16 @@
 		)
 		(uuid "d97072d5-6231-400d-8504-f4b1b13578d8")
 	)
+	(text "12.8V -> 5VA\n"
+		(exclude_from_sim no)
+		(at 308.102 134.62 0)
+		(effects
+			(font
+				(size 5 5)
+			)
+		)
+		(uuid "e74c175f-5f8d-4111-a1a5-3055b4437dae")
+	)
 	(text "12.8V -> 5V SWR\n"
 		(exclude_from_sim no)
 		(at 278.384 20.32 0)
@@ -3912,6 +3954,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0851d88f-8141-4e95-87b8-28702aa9b34b")
+	)
+	(junction
+		(at 303.53 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1374b336-9b69-4f3a-be4b-ddeadf6c7bd6")
 	)
 	(junction
 		(at 71.12 34.29)
@@ -3986,10 +4034,22 @@
 		(uuid "3d0db873-7fc8-41ab-bb13-4c53ae8704b0")
 	)
 	(junction
+		(at 335.28 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "40766d19-f1c8-4c41-89bf-6290ec01571b")
+	)
+	(junction
 		(at 200.66 233.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42253302-9ef8-4fe9-be35-1c54aec5eb6e")
+	)
+	(junction
+		(at 318.77 167.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4b551b1a-daf8-445a-8e5b-582ce4f2a820")
 	)
 	(junction
 		(at 207.01 34.29)
@@ -4405,6 +4465,26 @@
 	)
 	(wire
 		(pts
+			(xy 303.53 157.48) (xy 303.53 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "172a2dc0-27a1-45f9-9a1e-1f7b41556308")
+	)
+	(wire
+		(pts
+			(xy 303.53 157.48) (xy 311.15 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a7857a8-3b60-4a9b-b185-95562f7dd766")
+	)
+	(wire
+		(pts
 			(xy 133.35 231.14) (xy 133.35 238.76)
 		)
 		(stroke
@@ -4815,6 +4895,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 167.64) (xy 318.77 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4aff9bd8-356c-4561-83fa-0e83a928e87f")
+	)
+	(wire
+		(pts
 			(xy 175.26 223.52) (xy 175.26 219.71)
 		)
 		(stroke
@@ -5125,6 +5215,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 165.1) (xy 318.77 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f203d5e-8dc3-4bc4-9d5f-3101cdcc5768")
+	)
+	(wire
+		(pts
 			(xy 184.15 219.71) (xy 184.15 226.06)
 		)
 		(stroke
@@ -5235,6 +5335,16 @@
 	)
 	(wire
 		(pts
+			(xy 335.28 157.48) (xy 335.28 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "765e3d49-0122-4875-83fc-573ead42bda0")
+	)
+	(wire
+		(pts
 			(xy 48.26 34.29) (xy 53.34 34.29)
 		)
 		(stroke
@@ -5342,6 +5452,16 @@
 			(type default)
 		)
 		(uuid "81e8b56e-1f65-4666-8d4a-fbfb6e199a5c")
+	)
+	(wire
+		(pts
+			(xy 303.53 167.64) (xy 318.77 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83afa9f7-1ec6-4c03-b5f1-dd630e4d201b")
 	)
 	(wire
 		(pts
@@ -6075,6 +6195,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 157.48) (xy 335.28 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9c9da9a-20c3-48dc-a0d7-a637dd31de5c")
+	)
+	(wire
+		(pts
 			(xy 209.55 212.09) (xy 209.55 210.82)
 		)
 		(stroke
@@ -6132,6 +6262,16 @@
 			(type default)
 		)
 		(uuid "e210e073-57af-46c3-a72a-53b9aa0156a4")
+	)
+	(wire
+		(pts
+			(xy 335.28 157.48) (xy 341.63 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3c21a94-9033-4f07-a2dd-52f0885fa445")
 	)
 	(wire
 		(pts
@@ -6295,6 +6435,16 @@
 	)
 	(wire
 		(pts
+			(xy 318.77 167.64) (xy 335.28 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f69bea9e-9a31-4535-a70b-5254cd945677")
+	)
+	(wire
+		(pts
 			(xy 217.17 161.29) (xy 200.66 161.29)
 		)
 		(stroke
@@ -6312,6 +6462,16 @@
 			(type default)
 		)
 		(uuid "f7d77137-e98d-4c6a-8919-36b4d7d75182")
+	)
+	(wire
+		(pts
+			(xy 293.37 157.48) (xy 303.53 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f99e2760-9997-42de-8b08-f5a59f827d0b")
 	)
 	(wire
 		(pts
@@ -8971,7 +9131,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "5V_BAT"
+		(property "Value" "3V3A"
 			(at 129.286 225.298 0)
 			(effects
 				(font
@@ -10086,6 +10246,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 318.77 168.91 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6f9aa778-598e-42bd-9c2a-3e223b23a71d")
+		(property "Reference" "#PWR042"
+			(at 318.77 175.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 318.77 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 318.77 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 318.77 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 318.77 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0423b9bd-4cf6-47aa-8d8b-ee5782503f27")
+		)
+		(instances
+			(project "acquisition"
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/3917a9e9-47ba-43bf-aefd-5d3a66573ef7"
+					(reference "#PWR042")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SL_Capacitors:10uF_25V")
 		(at 71.12 38.1 270)
 		(unit 1)
@@ -10984,6 +11209,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 303.53 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "926fdad8-e07c-4791-a7a4-dbd7214a1ff5")
+		(property "Reference" "C2"
+			(at 307.34 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 307.34 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 304.4952 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 303.53 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 303.53 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "904212e4-f085-4ce1-8de8-dc400e321cb8")
+		)
+		(pin "1"
+			(uuid "3e15817b-0aa3-4bec-84e3-a9073662d6cd")
+		)
+		(instances
+			(project "acquisition"
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/3917a9e9-47ba-43bf-aefd-5d3a66573ef7"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 184.15 215.9 180)
 		(unit 1)
@@ -11048,6 +11343,77 @@
 			(project "acquisition"
 				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/3917a9e9-47ba-43bf-aefd-5d3a66573ef7"
 					(reference "R36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Regulator_Linear:MCP1799x-500xxTT")
+		(at 318.77 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "97fc7517-a384-4932-aa9c-cf3e511c1ab9")
+		(property "Reference" "U16"
+			(at 318.77 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP1799x-500xxTT"
+			(at 318.77 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 318.77 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/MCP1799-Data-Sheet-20006248A.pdf"
+			(at 318.77 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "80 mA High-Voltage Automotive LDO, 5V output, SOT-23"
+			(at 318.77 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2451ff35-2fb2-4167-b81f-3423ff553085")
+		)
+		(pin "3"
+			(uuid "95ab0406-ae41-49eb-8134-0e9f8a73a70f")
+		)
+		(pin "2"
+			(uuid "2dc8b424-a532-4ffa-a56a-55bf00deca88")
+		)
+		(instances
+			(project "acquisition"
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/3917a9e9-47ba-43bf-aefd-5d3a66573ef7"
+					(reference "U16")
 					(unit 1)
 				)
 			)
@@ -12203,7 +12569,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "12.8V"
+		(property "Value" "5VA"
 			(at 127 217.424 0)
 			(effects
 				(font
@@ -12927,6 +13293,142 @@
 			(project "acquisition"
 				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/3917a9e9-47ba-43bf-aefd-5d3a66573ef7"
 					(reference "#PWR094")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 335.28 163.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7331d2c-0dba-4607-bfc1-c89d5b3f4c89")
+		(property "Reference" "C3"
+			(at 339.09 162.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1u"
+			(at 339.09 165.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 336.2452 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 335.28 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 335.28 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "80476955-1f7d-426e-a999-5415d8c24e10")
+		)
+		(pin "1"
+			(uuid "0db8dfc1-8c1e-4e3d-ae84-677aecd28061")
+		)
+		(instances
+			(project "acquisition"
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/3917a9e9-47ba-43bf-aefd-5d3a66573ef7"
+					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5VA")
+		(at 341.63 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d81bdeca-0fa9-4b51-83ca-2afd33ac9528")
+		(property "Reference" "#PWR0133"
+			(at 341.63 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "5VA"
+			(at 339.598 152.908 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 341.63 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 341.63 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5VA\""
+			(at 341.63 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2890a066-78c8-4b79-9cad-0eb0557e243f")
+		)
+		(instances
+			(project "acquisition"
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/3917a9e9-47ba-43bf-aefd-5d3a66573ef7"
+					(reference "#PWR0133")
 					(unit 1)
 				)
 			)
@@ -13833,6 +14335,72 @@
 			(project "acquisition"
 				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/3917a9e9-47ba-43bf-aefd-5d3a66573ef7"
 					(reference "R89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 293.37 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fa3fabd9-7829-4669-83c6-bb9c536d4e62")
+		(property "Reference" "#PWR040"
+			(at 293.37 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "12.8V"
+			(at 290.83 153.924 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 293.37 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 293.37 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 293.37 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b796819e-333c-4e9d-89fe-d4338a90e711")
+		)
+		(instances
+			(project "acquisition"
+				(path "/eaacffe0-ee57-428e-a37e-5655e0922ccc/3917a9e9-47ba-43bf-aefd-5d3a66573ef7"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
